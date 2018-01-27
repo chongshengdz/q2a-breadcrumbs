@@ -48,7 +48,8 @@
         {
             $this->_data = array(
                 'breadcrumb_structure'        => '<li {{class}} itemscope itemtype="http://data-vocabulary.org/Breadcrumb" ><a href="{{url}}" itemprop="url" > <span itemprop="title"> {{text}} </span></a></li>',
-                'breadcrumb_structure_nolink' => '<li {{class}} itemscope itemtype="http://data-vocabulary.org/Breadcrumb" ><span itemprop="title"> {{text}} </span></li>',
+                'breadcrumb_structure_nolink' => '<li {{class}} itemscope itemtype="http://data-vocabulary.org/Breadcrumb" ><a href="{{url}}" itemprop="url" > <span itemprop="title"> {{text}} </span></a></li>',
+                //'breadcrumb_structure_nolink' => '<li {{class}} itemscope itemtype="http://data-vocabulary.org/Breadcrumb" ><span itemprop="title"> {{text}} </span></li>',
                 'type'                        => null,
                 'text'                        => null,
                 'url'                         => null,
